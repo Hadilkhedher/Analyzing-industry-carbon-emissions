@@ -1,14 +1,13 @@
 # Analyzing Industry Carbon Emissions
 
-This project analyzes the latest product emissions by industry using SQL. It calculates the total carbon footprint per industry and identifies top contributing companies.
+This project analyzes the carbon footprint of products across industries using SQL. It calculates total emissions per industry and identifies top contributing companies.
 
-## Files
-- `queries.sql` : SQL queries used for the analysis.
-- `data/` : optional dataset sample.
+## Data
+The `product_emissions` table (PostgreSQL) contains product carbon footprints (PCFs) and production stage emissions. Key columns include: `year`, `product_name`, `company`, `industry_group`, `carbon_footprint_pcf`.
 
-## Skills
-- SQL (aggregation, subqueries, GROUP BY, ORDER BY)
-- Data analysis
+## Objective
+Examine and rank industries based on total carbon footprint using SQL.
 
 ## Resources
-- Project completed as part of [DataCamp Joining  data in SQL Track](https://app.datacamp.com/learn/courses/joining-data-in-sql)), leveraging exercises and datasets provided in the course.
+- DataCamp SQL Track project
+
